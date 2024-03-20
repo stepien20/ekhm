@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+#div{
+    width: 900px;
+}
+section{
+    background-color: #5a2e53;
+    padding-top: 5%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+#nav, #nagl{
+    flex-basis: 100%;
+}
+#nagl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#h1{
+    font-size: xx-large;
+}
+header>hr{
+    height: 0px;
+    width: 20%;
+    color: white;
+}
+ul{
+    display: flex; 
+    justify-content: center;
+}
+li{
+    width: 100px;
+    margin: 15px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    background-color: #aaa;
+    padding: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+}
+article{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgb(187, 181, 181);
+    width: 40%;
+    margin: 15px;
+    box-shadow: 0 0 20px 0;
+    color: #444;
+}
+.art{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    line-height: 28px;
+}
+#hr{
+    width: 60%;
+    height: 0px;
+}
+button{
+    background-color: rgb(187, 181, 181);
+    padding: 0.7rem;
+    margin: 5px;
+    border: 1px rgb(89, 86, 86) solid;
+    border-radius: 13px;
+    color: rgb(86, 85, 85);
+    width: 110px;
+}
+#male{
+    letter-spacing: 2px;
+    font-size: small;
+}
+footer{
+    background-image: url("https://picsum.photos/id/249/1900/620");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+hr{
+    width: 50%;
+    color: white;
+}
